@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Oswald', sans-serif;
+}
+
+header {
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #ffffff;
+  top: 0;
+  z-index: 999;
+}
+
+/*---Seaside--*/
+
+.seaside {
+  padding: 2rem;
+  color:black;
+}  
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.seaside-col-1{
+  flex-basis: 55%;
+}
+
+.seaside-col-1 img{
+  width: 100%;
+}
+
+.seaside-col-2{
+  flex-basis: 40%;
+  margin-top: 0rem;
+}
+
+.seaside-col-2 p{
+  margin-top: 2rem;
+}
+
+.seaside-col-2 p span{
+  display: block;
+  margin-bottom: 10px;
+}
+
+  /*---Garage--*/
+
+  .results {
+    padding: 2rem;
+    color:black;
+  }  
+  
+  .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .garage-col-1{
+    flex-basis: 51%;
+    margin-left: 2rem;
+  }
+  
+  .garage-col-1 img{
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .garage-col-2{
+  flex-basis: 42%;
+  margin-top: 0rem;
+}
+
+.garage-col-2 p{
+  margin-top: 2rem;
+}
